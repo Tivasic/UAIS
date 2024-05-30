@@ -26,7 +26,7 @@ jobs:
         run: make test
 
   build-docker:
-    needs: test
+    needs: [test, review]
     runs-on: macos-latest
 
     steps:
