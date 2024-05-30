@@ -5,5 +5,3 @@ run-app:
 	@echo "Run APP"
 	@uvicorn app.main:app --reload
 
-docker-build:
-	docker build -f uais/Dockerfile .
