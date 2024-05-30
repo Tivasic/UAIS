@@ -6,4 +6,4 @@ run-app:
 	@uvicorn app.main:app --reload
 
 docker-build:
-	docker build -f Dockerfile .
+	docker build -t my-image -f Dockerfile .
